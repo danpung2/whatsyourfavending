@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <link rel="stylesheet" href="css/result.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/qna.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/default.css"> 
+    <!-- <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init("API_KEY");
+        Kakao.isInitialized();
+    </script> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="hiblue">
+    <meta name="keywords" content="엔딩 취향 유형">
+    <meta name="description" content="엔딩 취향 유형">
+
+    <meta property="og:url" content="https://whatsyourfavending.netlify.app/" />
+    <meta property="og:title" content="엔딩 취향 유형" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/main.jpg" />
+    <meta property="og:description" content="엔딩 취향 유형" />
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.ico">
+
+    <title>엔딩 취향 유형</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color:rgb(75, 56, 5);">
+    <div class="container">
+        <section id="main" class="mx-auto my-5 py-5 px-3">
+            <h1>당신의 엔딩취향유형을 <br>알려드립니다</h1>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+                <img src="img/main.jpg" alt="mainImage" class="img-fluid">
+            </div>
+            <p>
+                나는 어떤 <br>엔딩을 좋아할까
+            <p>
+                <button type="button" class="btn btn-warning mt-3 btn-lg" onclick="js:begin()">시작하기</button>
+        </section>
+        <section id="qna">
+            <div class="status mx-auto mt-5">
+                <div class="statusBar">
+
+                </div>
+            </div>
+            <div class="qBox my-5 py-3 mx-auto">
+
+            </div>
+            <div class="answerBox">
+
+            </div>
+        </section>
+        <section id="result" class="mx-auto my-5 py-5 px-3">
+            <h1>당신의 엔딩 취향 유형은</h1>
+            <div class="resultname">
+
+            </div>
+            <div id="resultImg" class="my-5 col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+            </div>
+            <div class="resultDesc">
+
+            </div>
+
+            <!-- <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">카카오톡 공유하기</button> -->
+            <button type="button" class="twitter mt-3 py-2 px-3" onclick="js:twitterShare()">트위터 공유하기</button>
+
+        </section>
+        <script src="js/data.js" charset="utf-8"></script>
+        <script src="js/start.js" charset="utf-8"></script>
+        <script src="js/share.js" charset="utf-8"></script>
+
+    </div>
+</body>
+
+</html>

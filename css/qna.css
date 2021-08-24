@@ -1,0 +1,45 @@
+#qna{
+    display: none;
+}
+
+.qBox{
+    background-color: rgb(204, 148, 64);
+    text-align: center;
+    border-radius: 20px;
+    font-size:24px;
+    width: 80%;
+}
+
+.answerList{
+    background-color: rgb(204, 148, 64);
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 20px;
+
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: rgb(255, 244, 112);
+    color:rgb(204, 148, 64);
+}
+
+.status{
+    height:20px;
+    width:80%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height: 100%;
+    border-radius: 20px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eab92d+0,c79810+100;Yellow+3D+%232 */
+    background: #eab92d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #eab92d 0%, #c79810 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #eab92d 0%,#c79810 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #eab92d 0%,#c79810 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eab92d', endColorstr='#c79810',GradientType=0 ); /* IE6-9 */
+
+}
